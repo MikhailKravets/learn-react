@@ -26,7 +26,7 @@ class Application(web.Application):
         settings = {
             'debug': True,
             'compiled_template_cache': False,
-            'static_path': '/statics/'
+            'static_path':  os.getcwd() + '/statics/'
         }
         super().__init__(handlers, **settings)
 
