@@ -1,0 +1,7 @@
+.idea
+test.py
+__pycache__
+*.xls*
+*.txt
+*.jpg
+tmp/*
